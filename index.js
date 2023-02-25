@@ -50,7 +50,10 @@ const questions = [
         type: "list",
         name: "license",
         message: "Enter License information?",
-        choices: [,"Apace License 2.0", "Boost", "BSD","Creative Commons", "GNU GPL v3", "MIT", "Zlib"]
+        choices: ["Apache", "Boost", "BSD","Creative Commons", "GNUGPLv3", "MIT", "Zlib"],
+        filter(val) {
+            return val.toLowerCase();
+        }
     },
 
     {

@@ -1,34 +1,35 @@
-#** Project README Generator**
-     ![License](https://img.shields.io/github/Zlib/zakirali1/ReadMe-Generator)
+# teat
 
-    # Description
-    A nodejs application that takes user input and populates a README file. 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    # Table of Contents
-    -[Description](#description)
-    -[Table of Contents](#table-of-contents)
-    -[Installation](#installation)
-    -[Usage](#usage)
-    -[License](#license)
-    -[Contributing](#contributing)
-    -[Tests](#tests)
-    -[Questions](#questions)
+  ## Description
+  test 
 
-    #Installation 
-    npm -i
+  ## Table of Contents
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  ## Installation 
+    test
 
-    #Usage
-    undefined
+  ## Usage
+  undefined
 
-    #License
-    Zlib
+  ## License
+   This is licensed under [MIT](https://choosealicense.com/licenses/mit/) license
+  mit
 
-    #Contributing
-    zakirali
+  ## Contributing
+  test
 
-    #Tests
-    tst
+  ## Tests
+  test
 
-    #Questions
-    zakirali@github
+  ## Questions
+  test
   
