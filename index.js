@@ -50,7 +50,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Enter License information?",
-        choices: ["Apace License 2.0", "GNU General License v3.0", "MIT License"]
+        choices: [,"Apace License 2.0", "Boost", "BSD","Creative Commons", "GNU GPL v3", "MIT", "Zlib"]
     },
 
     {
@@ -98,7 +98,7 @@ function init() {
         // if(err) {
         //     throw err; 
         // }
-        // console.log(data)
+        console.log(data)
         // console.log(data.contents)
 
         writeToFile("sampleReadme.md", generateMarkdown(data));
