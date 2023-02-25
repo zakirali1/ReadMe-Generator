@@ -31,9 +31,21 @@ function generateMarkdown(data) {
 
   const licenseText = license => {
     if(license) {
-      return ` This is licensed under ${(licenseDetails(license))} license`;
+      return ` This is licensed under ${(licenseDetails(license))} license.`;
     }
+  };
+
+  const gitLink = link => {
+    if(link) {
+      return `Reach me at my gitHub at [Github](https://github.com/${link})`;
+    }
+  };
+
+  const emailMe = email => {
+    if(email) {
+      return ` or [Email](zakirali1@hotmail.co.uk)`
   }
+};
 
   // https://img.shields.io/github/languages/top/lernantino/badmath
   return(
@@ -58,7 +70,11 @@ function generateMarkdown(data) {
     ${data.installation}
 
   ## Usage
-  ${data.usage}
+
+  You will find a screenshot below, highlighting the application in use. This section shows you the output of the .md file using input taken when the application is run.
+
+  ![alt text](./assets/images/${data.usage})
+  
 
   ## License
   ${(licenseText(data.license))}
@@ -71,10 +87,9 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  ${data.git}
-  
-  ${data.email}
-  `); 
+  ${(gitLink(data.git))}
+  ${(emailMe(data.email))}
+   `); 
 }
 
 module.exports = generateMarkdown;

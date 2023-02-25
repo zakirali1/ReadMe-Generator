@@ -42,8 +42,9 @@ const questions = [
 
     {
         type: "input",
-        name: "Usage",
-        message: "Enter Usage information"
+        name: "usage",
+        message: "Type filename of image to use for usage section",
+        default: "screenshot.png"
     },
 
     {
@@ -83,18 +84,8 @@ const questions = [
    
 ];
 
-// inquirer.prompt(questions).then((data) => {
-//     // if(err) {
-//     //     throw err; 
-//     // }
-//     console.log(data)
-
-    
-// }) 
-// function to write README file
 function writeToFile(fileName, data) {
-    // let fileName = "sampleReadme.md";
-    // let fileContent = generateMarkdown(data);
+    
     fs.writeFile(fileName, data, err => {
       
        err ? console.log(err) : console.log('Success!')

@@ -1,9 +1,9 @@
-# Readme Generator
+# README Generator
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  This application has been built using nodejs. When run, the application prompts users for input and constructs a README file. 
+  A simple application built with nodejs, that will accept user input and contruct a README file. 
 
   ## Table of Contents
   - [Description](#description)
@@ -18,20 +18,23 @@
     npm -i
 
   ## Usage
-  undefined
+
+  You will find a screenshot below, highlighting the application in use. This section shows you the output of the .md file using input taken when the application is run.
+
+  ![alt text](./assets/images/screenshot.png)
+  
 
   ## License
-   This is licensed under [GNUGPLV3](https://choosealicense.com/licenses/gpl-3.0/) license
+   This is licensed under [MIT](https://choosealicense.com/licenses/mit/) license.
  
 
   ## Contributing
   Zakir Ali
 
   ## Tests
-  Try to miss out an option in the contents question. You will be notified with a validator, prompting users, "All options must be highlighted"
+  Dont choose all options on content question
 
   ## Questions
-  zakirali1
-  
-  zakirali1@hotmail.co.uk
-  
+  Reach me at my gitHub at [Github](https://github.com/zakirali1)
+   or [Email](zakirali1@hotmail.co.uk)
+   
