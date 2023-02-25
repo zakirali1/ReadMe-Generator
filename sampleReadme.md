@@ -1,9 +1,9 @@
-# teat
+# Readme Generator
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Description
-  test 
+  This application has been built using nodejs. When run, the application prompts users for input and constructs a README file. 
 
   ## Table of Contents
   - [Description](#description)
@@ -15,21 +15,23 @@
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation 
-    test
+    npm -i
 
   ## Usage
   undefined
 
   ## License
-   This is licensed under [MIT](https://choosealicense.com/licenses/mit/) license
-  mit
+   This is licensed under [GNUGPLV3](https://choosealicense.com/licenses/gpl-3.0/) license
+ 
 
   ## Contributing
-  test
+  Zakir Ali
 
   ## Tests
-  test
+  Try to miss out an option in the contents question. You will be notified with a validator, prompting users, "All options must be highlighted"
 
   ## Questions
-  test
+  zakirali1
+  
+  zakirali1@hotmail.co.uk
   

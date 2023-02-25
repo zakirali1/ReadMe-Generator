@@ -50,7 +50,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Enter License information?",
-        choices: ["Apache", "Boost", "BSD","Creative Commons", "GNUGPLv3", "MIT", "Zlib"],
+        choices: ["Apache", "Boost", "GNUGPLv3", "MIT"],
         filter(val) {
             return val.toLowerCase();
         }
@@ -59,7 +59,7 @@ const questions = [
     {
         type: "input",
         name: "contributing",
-        message: "Enter Contributing information"
+        message: "Names of any contributors to this project"
     },
 
     {
@@ -70,8 +70,15 @@ const questions = [
 
     {
         type: "input",
-        name: "questions",
-        message: "Input your GitHub username"
+        name: "git",
+        message: "Input your GitHub username",
+        
+    },
+
+    {
+        type: "input",
+        name: "email",
+        message: "Enter your email address"
     }
    
 ];

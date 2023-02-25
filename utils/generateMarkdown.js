@@ -9,8 +9,11 @@ function generateMarkdown(data) {
     
     let badge = {
       apache: "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
-      mit: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+      mit: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      boost: "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)", 
+      gnugplv3: "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
 
+      // Apache", "Boost", "BSD","Creative Commons", "GNUGPLv3", "MIT", "Zlib"
     }
     return badge[license]
 
@@ -19,7 +22,9 @@ function generateMarkdown(data) {
   const licenseDetails = license => {
     let licenseLinks = {
       apache: "[APACHE](https://choosealicense.com/licenses/apache-2.0/)",
-      mit: "[MIT](https://choosealicense.com/licenses/mit/)"
+      mit: "[MIT](https://choosealicense.com/licenses/mit/)",
+      gnugplv3: "[GNUGPLV3](https://choosealicense.com/licenses/gpl-3.0/)",
+      boost: "[BOOST](https://choosealicense.com/licenses/bsl-1.0/)"
     }
     return licenseLinks[license]
   };
@@ -57,7 +62,7 @@ function generateMarkdown(data) {
 
   ## License
   ${(licenseText(data.license))}
-  ${data.license}
+ 
 
   ## Contributing
   ${data.contributing}
@@ -66,7 +71,9 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  ${data.questions}
+  ${data.git}
+  
+  ${data.email}
   `); 
 }
 
