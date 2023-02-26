@@ -1,6 +1,6 @@
 # ReadMe-Generator
 
-Description
+## Description
 
 This app was built using nodejs/javascript to populate a professional README, labelled samplereadme.md. When run, the app prompts the user a number of questions and then populating given sections with user input. Validation has also been used as well as filters for inquirer.prompt questions, to help ensure the user is guided to correctly include the right sections and files needed to succesfully generate the right output. 
 
