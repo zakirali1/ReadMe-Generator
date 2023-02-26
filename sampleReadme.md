@@ -3,7 +3,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  A simple application built with nodejs, that will accept user input and contruct a README file. 
+  This application has been built using nodejs. When run, it will accept user input and populate content for given section of README. 
 
   ## Table of Contents
   - [Description](#description)
@@ -29,10 +29,10 @@
  
 
   ## Contributing
-  Zakir Ali
+  Zakir Ali.
 
   ## Tests
-  Dont choose all options on content question
+  Try to not select all options when asked about what to include in contents.
 
   ## Questions
   Reach me at my gitHub at [Github](https://github.com/zakirali1)
